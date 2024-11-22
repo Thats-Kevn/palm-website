@@ -1,0 +1,69 @@
+.header {
+    font-family: league spartan, Roboto, Arial;
+    height: 80px;
+    background-color: #FFF8E8;
+    color: #db4a2b;
+
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    justify-content: space-between;
+    box-sizing: content-box;
+
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.waxpalm-logo {
+    width: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.waxpalm-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.waxpalm {
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 28px;
+}
+
+.waxpalm-div {
+    margin-right: 30px;
+}
+
+.waxpalm-div:hover {
+    color: #007556;
+    border-bottom: 3px solid #007556;
+    cursor: pointer;
+}
+
+.shopping-bag-icon {
+    width: 25px;
+}
+
+.search-icon-button img {
+    width: 20px;
+}
+
+

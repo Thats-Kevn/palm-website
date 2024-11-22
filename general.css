@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e4e2dd;
+    margin: 0;
+    padding: 80px 0 0 0 ;
+    width: 100%;
+}
+
+p {
+    font-family: league spartan, roboto, Arial;
+}
+
+.palabra-pelicula {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-top: 100px;
+}

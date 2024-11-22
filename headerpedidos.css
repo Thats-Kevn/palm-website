@@ -1,0 +1,34 @@
+.header-pedidos {
+    font-family: league spartan, Roboto, Arial;
+    height: 50px;
+    background-color: #db4a2b;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    justify-content: space-between;
+    box-sizing: content-box;
+
+    z-index: 100;
+    text-align: center;
+}
+
+.header-pedidos a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+}
+
+.header-pedidos a:hover {
+    color: #007556;
+    border-bottom: 1px solid #007556;
+}
